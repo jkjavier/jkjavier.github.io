@@ -1,11 +1,12 @@
 body {
-  background-color: #c9c1a7;
+  *background-color: #c9c1a7;
 }
 
 .headerImage {
     width: 100%;
-    min-height: 300px;
-    position: relative;
+    *min-height: 300px;
+    *position: fixed;
+    background-size:cover;
     float: left;
     *right:130px;
 }
