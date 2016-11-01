@@ -1,0 +1,15 @@
+.headerImage {
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    float: left;
+}
+
+.headerConstent {
+  color: #FFF;
+  float: left;
+  position:absolute;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #FFF;
+}
