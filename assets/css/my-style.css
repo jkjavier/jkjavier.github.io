@@ -3,6 +3,7 @@
     min-height: 300px;
     position: relative;
     float: left;
+    *right:130px;
 }
 
 .headerConstent {
