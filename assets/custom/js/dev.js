@@ -2,12 +2,18 @@
     code(window.jQuery, window, document);
 }(function($, window, document){
 
+    var employmentList = $('#employmentList');
+    
     $.ajax({
         url: './data/experience.json',
         dataType: 'json',
         type: 'post',
         success: function(response){
             console.log(response);
+            $.each(response, function(resp){
+                employmentList.append('<li>'+this.address+'</li>');
+            });
+            
         }
     });
     
@@ -17,7 +23,7 @@
         type: 'post',
         success: function(response){
             $.each(response, function(res){
-               console.log(res); 
+//               console.log(res); 
             });
             console.log(response);
         }
