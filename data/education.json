@@ -1,0 +1,10 @@
+{
+    "graduate":{
+        "course": "Bachelor of Science Major in Computer Science",
+        "duration-start": "June 2010",
+        "duration-end": "March 2014"
+    },
+    "post graduate":{
+        "course":"soon"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "software development":[
+        "bash",
+        "java",
+        "node",
+        "php",
+        "sql"
+    ],
+    "web development":[
+        "css3",
+        "html5",
+        "javascript"
+    ],
+    "databases":[
+        "mysql",
+        "postgresql",
+        "sql-lite"
+    ],
+    "frameworks":[
+        "angular 1",
+        "laravel",
+        "spring",
+        "yii"
+    ],
+    "build tools":[
+        "composer",
+        "maven",
+        "npm"
+    ],
+    "apis":[
+        "facebook api",
+        "google maps api",
+        "twillo api"
+    ],
+    "platforms":[
+        "centos 6 and 7 (RHEL)",
+        "ubuntu 12 and 14 (Debian)"
+    ],
+    "version control":[
+        "git",
+        "mercurial"
+    ],
+    "unit testing":[
+        "junit",
+        "phpunit"
+    ],
+    "others":[
+        "redis",
+        "solr",
+        "sphinx",
+        "zeromq"
+    ]
+}
