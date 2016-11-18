@@ -10,7 +10,7 @@ body {
     background-size: cover;
     #background-repeat: no-repeat;
     #background-attachment: fixed;
-    background-position: center; 
+    background-position: cover; 
 }
 
 #black-overlay {
@@ -21,21 +21,21 @@ body {
     opacity: 0.5;
 }
 
-#headline-1, #headline-2, #headline-container {
+#headline-container {
 	color: white;
-	position: fixed;
+	position: relative;
+	top: 30%; 
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	
 }
 
 #headline-1 {
+    padding-left: 20%;
     font-size: 10vw;
-    top: 30%;
-    left: 20%;
+    position: relative;
 }
 
 #headline-2 {
-    font-size: 2vw;
-    top: 50%;
-    left: 66%;
+    padding-left: 56%;
+    font-size: 3vw;
+    position: relative;
 }
