@@ -6,8 +6,7 @@
 
     $.ajax({
         url: 'https://jkjavier.github.io/data/experience.json',
-        dataType: 'jsonp',
-        jsonp: 'jsonp_callback',
+        dataType: 'json',
         type: 'get',
         success: function(response){
             console.log(response);
