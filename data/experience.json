@@ -1,34 +1,36 @@
 {
-    "0":{
-        "position": "Research and Development Engineer",
-        "company": "Get Hooked 360 Incorporated",
-        "start-date": "april 2014",
-        "end-date": "february 2015",
-        "address": "Get Hooked 360, 2B-2C Capitol Hills Drive, Tandang Sora, Quezon City",
-        "description": "As a research and development engineer for GH360 Inc., I help improve the current technologies offered by the company. Most of my work are back-end development, system administration such as website migration and server hardening."
-    },
-    "1":{
-        "position": "Applications Developer",
-        "company": "Cid Systems Solutions and Services",
-        "start-date": "march 2015",
-        "end-date": "september 2015",
-        "address": "1410 Cityland Herrera, Valero Street, Makati City",
-        "description": "I functioned as an applications developer forCid systems and did front and back end development from the ground up for the company’s clients. Create PHP scripts to help improve Cid systems’ native web framework and SEO optimization."
-    },
-    "2":{
-        "position": "Back-end Developer",
-        "company": "Hoppler Incorporated",
-        "start-date": "january 2016",
-        "end-date": "august 2016",
-        "address": "3rd floor, LDM Building, 50 Polaris, Bel-Air, Makati City",
-        "description": "I work as a Backend Developer. My daily work flow involves writing readable, scalable modules that improves the company’s existing API. I collaborate with co­workers to establish backend conventions, principles, and patterns, to see projects through, from conception to completion. I designed new features and services to support company applications and develop and maintain server ­side applications."
-    },
-    "3":{
-        "position": "PHP Developer",
-        "company": "Simplex Internet Philippines Incorporated",
-        "start-date": "october 2016",
-        "end-date": "present",
-        "address": "7F Suntree Tower Meralco Ave, Pasig City",
-        "description": ""
+    "graduate":{
+      "0":{
+          "position": "Research and Development Engineer",
+          "company": "Get Hooked 360 Incorporated",
+          "start-date": "april 2014",
+          "end-date": "february 2015",
+          "address": "Get Hooked 360, 2B-2C Capitol Hills Drive, Tandang Sora, Quezon City",
+          "description": "As a research and development engineer for GH360 Inc., I help improve the current technologies offered by the company. Most of my work are back-end development, system administration such as website migration and server hardening."
+      },
+      "1":{
+          "position": "Applications Developer",
+          "company": "Cid Systems Solutions and Services",
+          "start-date": "march 2015",
+          "end-date": "september 2015",
+          "address": "1410 Cityland Herrera, Valero Street, Makati City",
+          "description": "I functioned as an applications developer forCid systems and did front and back end development from the ground up for the company’s clients. Create PHP scripts to help improve Cid systems’ native web framework and SEO optimization."
+      },
+      "2":{
+          "position": "Back-end Developer",
+          "company": "Hoppler Incorporated",
+          "start-date": "january 2016",
+          "end-date": "august 2016",
+          "address": "3rd floor, LDM Building, 50 Polaris, Bel-Air, Makati City",
+          "description": "I work as a Backend Developer. My daily work flow involves writing readable, scalable modules that improves the company’s existing API. I collaborate with co­workers to establish backend conventions, principles, and patterns, to see projects through, from conception to completion. I designed new features and services to support company applications and develop and maintain server ­side applications."
+      },
+      "3":{
+          "position": "PHP Developer",
+          "company": "Simplex Internet Philippines Incorporated",
+          "start-date": "october 2016",
+          "end-date": "present",
+          "address": "7F Suntree Tower Meralco Ave, Pasig City",
+          "description": ""
+      }
     }
 }
