@@ -3,48 +3,49 @@
 }(function($, window, document){
 
     var employmentList = $('#employmentList');
-    
+
     $.ajax({
-        url: './data/experience.json',
-        dataType: 'json',
-        type: 'post',
+        url: 'https://jkjavier.github.io/data/experience.json',
+        dataType: 'jsonp',
+        jsonp: 'jsonp_callback',
+        type: 'get',
         success: function(response){
             console.log(response);
             $.each(response, function(resp){
                 employmentList.append('<li>'+this.address+'</li>');
             });
-            
+
         }
     });
-    
+
     $.ajax({
-        url: './data/skills.json',
+        url: 'https://jkjavier.github.io/data/skills.json',
         dataType: 'json',
-        type: 'post',
+        type: 'get',
         success: function(response){
             $.each(response, function(res){
-//               console.log(res); 
+//               console.log(res);
             });
             console.log(response);
         }
     });
-    
+
     $.ajax({
-        url: './data/personal.json',
+        url: 'https://jkjavier.github.io/data/personal.json',
         dataType: 'json',
-        type: 'post',
+        type: 'get',
         success: function(response){
             console.log(response);
         }
     });
-    
+
     $.ajax({
-        url: './data/education.json',
+        url: 'https://jkjavier.github.io/data/education.json',
         dataType: 'json',
-        type: 'post',
+        type: 'get',
         success: function(response){
             console.log(response);
         }
     });
-    
+
 }));
