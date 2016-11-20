@@ -11,7 +11,7 @@
         success: function(response){
             console.log(response);
             $.each(response, function(resp){
-                employmentList.append('<li>'+this.address+'</li>');
+                employmentList.append('<li>'+this.position+'</li>');
             });
 
         }
@@ -23,7 +23,7 @@
         type: 'get',
         success: function(response){
             $.each(response, function(res){
-//               console.log(res);
+              console.log(res);
             });
             console.log(response);
         }
