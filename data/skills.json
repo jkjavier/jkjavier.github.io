@@ -1,12 +1,12 @@
 {
-    "software development":[
+    "softwareDevelopment":[
         "bash",
         "java",
         "node",
         "php",
         "sql"
     ],
-    "web development":[
+    "webDevelopment":[
         "css3",
         "html5",
         "javascript"
@@ -22,7 +22,7 @@
         "spring",
         "yii"
     ],
-    "build tools":[
+    "buildTools":[
         "composer",
         "maven",
         "npm"
@@ -36,11 +36,11 @@
         "centos 6 and 7 (RHEL)",
         "ubuntu 12 and 14 (Debian)"
     ],
-    "version control":[
+    "versionControl":[
         "git",
         "mercurial"
     ],
-    "unit testing":[
+    "unitTesting":[
         "junit",
         "phpunit"
     ],
