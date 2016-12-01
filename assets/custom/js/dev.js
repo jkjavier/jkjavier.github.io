@@ -6,8 +6,8 @@
     var skills = $('#skillList');
 
     $.ajax({
-        //url: 'https://jkjavier.github.io/data/experience.json',
-        url: './data/experience.json',
+        url: 'https://jkjavier.github.io/data/experience.json',
+        //url: './data/experience.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
@@ -23,20 +23,20 @@
     });
 
     $.ajax({
-        //url: 'https://jkjavier.github.io/data/skills.json',
-        url: './data/skills.json',
+        url: 'https://jkjavier.github.io/data/skills.json',
+        //url: './data/skills.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
             $.each(response, function(res){
-            	skills.append(this.);
+            	skills.append(this.softwareDevelopment);
             });
         }
     });
 
     $.ajax({
-        //url: 'https://jkjavier.github.io/data/personal.json',
-        url: './data/personal.json',
+        url: 'https://jkjavier.github.io/data/personal.json',
+        //url: './data/personal.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
@@ -45,8 +45,8 @@
     });
 
     $.ajax({
-        //url: 'https://jkjavier.github.io/data/education.json',
-        url: './data/education.json',
+        url: 'https://jkjavier.github.io/data/education.json',
+        //url: './data/education.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
