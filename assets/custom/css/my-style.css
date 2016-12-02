@@ -53,3 +53,10 @@ ul {
   padding-left:0;
 }
 
+.links{
+    color: #000000;
+    font-style: italic;
+    font-size: .9em;
+    text-decoration: none;
+}
+

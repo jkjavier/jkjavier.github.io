@@ -4,19 +4,20 @@
 
     var employment = $('#employmentList');
     var skills = $('#skillList');
+    var education = $('#education');
+    var org = $('#affiliations');
 
     $.ajax({
-        url: 'https://jkjavier.github.io/data/experience.json',
-        //url: './data/experience.json',
+        //url: 'https://jkjavier.github.io/data/experience.json',
+        url: './data/experience.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
             $.each(response, function(resp){
-                employment.append('<li><b>'+this.position+'</b> / '+
-                '<span class="workDuration"> '+ this.startDate +
-                ' - '+ this.endDate + '</span>'+
-                '<br/>'+this.company+
-                '<br/><span class="companyInfo">'+ this.address + '</span>'+
+                employment.append('<li><b>'+this.position+'</b> '+
+                '/ '+this.company+'<br/><span class="workDuration"> '+ this.startDate +
+                ' - '+ this.endDate + '</span> ('+ this.duration +')'+
+                ' <a class="links" href="'+this.companySite+'">'+ this.companySite + '</a>'+
                 '<br/><div class="jobDescription"><span >'+ this.description + '</span></div>'+
                 '<br/></li>');
             });
@@ -24,8 +25,8 @@
     });
 
     $.ajax({
-        url: 'https://jkjavier.github.io/data/skills2.json',
-        //url: './data/skills2.json',
+        //url: 'https://jkjavier.github.io/data/skills2.json',
+        url: './data/skills2.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
@@ -44,32 +45,47 @@
     });
 
     $.ajax({
-        url: 'https://jkjavier.github.io/data/personal.json',
-        //url: './data/personal.json',
+        //url: 'https://jkjavier.github.io/data/personal.json',
+        url: './data/personal.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
-            console.log(response);
+            console.log(response.shortSummary);
         }
     });
     
     $.ajax({
-        url: 'https://jkjavier.github.io/data/affiliation.json',
-        //url: './data/affiliation.json',
+        //url: 'https://jkjavier.github.io/data/affiliation.json',
+        url: './data/affiliation.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
-            console.log(response);
+            $.each(response, function(content){
+                org.append('<li><b>'+this.position+
+                '</b> / '+this.startDate+' - '+this.endDate+
+                '</br>'+this.organization+
+                '</br>'+this.description+
+                '</li></br>');
+            });
         }
     });
 
     $.ajax({
-        url: 'https://jkjavier.github.io/data/education.json',
-        //url: './data/education.json',
+        //url: 'https://jkjavier.github.io/data/education.json',
+        url: './data/education.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
-            console.log(response);
+            $.each(response, function(content){
+                education.append('<li><b>'+this.course+
+                '</b> / '+this.startDate+
+                ' - '+this.endDate+
+                '</br>'+this.university+
+                '</br><b>Thesis</b>: '+this.thesis+
+                '</li></br>');
+            });
+//        	console.log(response.graduate);
+//            education.append('<li></li>');
         }
     });
 

@@ -1,10 +1,16 @@
 {
     "graduate":{
         "course": "Bachelor of Science Major in Computer Science",
-        "duration-start": "June 2010",
-        "duration-end": "March 2014"
+        "university": "Technological University of the Philippines - Manila",
+        "startDate": "June 2010",
+        "endDate": "March 2014",
+        "thesis": "Development of a Real-Time Surveillance System"
     },
     "post graduate":{
-        "course":"soon"
+        "course": "Masters of Information Technology",
+        "university": "Technological University of the Philippines - Manila",
+        "startDate": "June 2016",
+        "endDate": "Present",
+        "thesis": " -- "
     }
 }

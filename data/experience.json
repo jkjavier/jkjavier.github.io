@@ -1,33 +1,41 @@
 {
-      "4":{
+      "0":{
           "position": "PHP Developer",
           "company": "Simplex Internet Philippines Inc.",
           "startDate": "October 2016",
           "endDate": "November 2016",
+          "duration": "3 months",
+          "companySite":"http://www.simplexi.com/",
           "address": "7F Suntree Tower Meralco Ave, Pasig City",
           "description": "I served as a PHP developer on a project based employment. The projects I handled with the company is a banner management and trending keyword search that both consists an internal CMS and gathers data per user click for statistics and is executed under the company's native framework. The said projects enabled me to apply my knowledge on object oriented programming and  enhanced my javascript scripting knowledge."
       },
-     "2":{
+     "1":{
           "position": "Back-end Developer",
           "company": "Hoppler Inc.",
           "startDate": "January 2016",
           "endDate": "August 2016",
+          "duration": "8 months",
+          "companySite":"https://www.hoppler.com.ph/",
           "address": "3rd floor, 50 Polaris, Bel-Air, Makati City",
           "description": "I work as a Backend Developer. My daily work flow involves writing readable, scalable modules that improves the company’s existing API. I collaborate with co­workers to establish backend conventions, principles, and patterns, to see projects through, from conception to completion. I designed new features and services to support company applications and develop and maintain server ­side applications."
       },
-	  "1":{
+	  "2":{
           "position": "Applications Developer",
           "company": "Cid Systems Solutions and Services Inc.",
           "startDate": "March 2015",
           "endDate": "September 2015",
+          "duration": "6 months",
+          "companySite":"http://www.cid-systems.com/",
           "address": "1410 Cityland Herrera, Valero Street, Makati City",
           "description": "I functioned as an applications developer forCid systems and did front and back end development from the ground up for the company’s clients. Create PHP scripts to help improve Cid systems’ native web framework and SEO optimization."
       },
-      "0":{
+      "3":{
           "position": "Research and Development Engineer",
           "company": "Get Hooked 360 Inc.",
           "startDate": "April 2014",
           "endDate": "February 2015",
+          "duration": "11 months",
+          "companySite":"http://www.gethooked360.com/",
           "address": "Unit 2B-2C Capitol Hills, Tandang Sora, Quezon City",
           "description": "I learned a lot as a research and development engineer for Gethooked 360, in return I did my best to help improve current technologies for the company. Most of my work are back-end development, system administration such as website migration and server hardening."
       }
