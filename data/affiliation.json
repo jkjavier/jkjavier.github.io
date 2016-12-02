@@ -1,0 +1,30 @@
+{
+    "3":{
+        "position": "Marketing Person",
+        "startDate": "",
+        "endDate": "",
+        "organization": "Philippine Android Developers Community (PDAC)",
+        "description": ""
+    },
+    "2":{
+        "position": "Marketing Head",
+        "startDate": "",
+        "endDate": "",
+        "organization": "Developers Connect Philippines (Devcon)",
+        "description": ""
+    },
+    "1":{
+        "position": "Marketing Team Lead",
+        "startDate": "",
+        "endDate": "",
+        "organization": "Developers Connect Philippines (Devcon)",
+        "description": ""
+    },
+    "0":{
+        "position": "Member",
+        "startDate": "",
+        "endDate": "",
+        "organization": "Developers Connect Philippines (Devcon)",
+        "description": ""
+    }
+}

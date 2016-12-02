@@ -15,7 +15,7 @@
     
     "versionControl": "Git, Mercurial",
     
-    "unitTests": "Junit, PHPunit",
+    "unitTests": "JUnit, PHPUnit",
     
     "others": "Redis, Solr, Sphinx, ZeroMQ"
 }
