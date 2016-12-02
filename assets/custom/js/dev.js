@@ -81,7 +81,7 @@
                 '</b> / '+this.startDate+
                 ' - '+this.endDate+
                 '</br>'+this.university+
-                '</br><b>Thesis</b>: '+this.thesis+
+                '</br><b>Dissertation</b>: '+this.dissertation+
                 '</li></br>');
             });
 //        	console.log(response.graduate);
