@@ -23,7 +23,7 @@
     });
 
     $.ajax({
-        url: 'https://jkjavier.github.io/data/skills.json',
+        url: 'https://jkjavier.github.io/data/skills2.json',
         //url: './data/skills2.json',
         dataType: 'json',
         type: 'get',
