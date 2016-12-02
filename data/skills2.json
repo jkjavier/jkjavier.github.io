@@ -11,7 +11,7 @@
     
     "apis": "Facebook API, Google Maps API, Twillo API",
     
-    "platforms": "Centos 6 and 7 (RHEL), ubuntu 12 and 14 (Debian)",
+    "platforms": "Centos 6 and 7 (RHEL), Ubuntu 12 and 14 (Debian)",
     
     "versionControl": "Git, Mercurial",
     

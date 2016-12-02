@@ -55,8 +55,8 @@
     });
     
     $.ajax({
-        //url: 'https://jkjavier.github.io/data/affiliation.json',
-        url: './data/affiliation.json',
+        url: 'https://jkjavier.github.io/data/affiliation.json',
+        //url: './data/affiliation.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
@@ -71,8 +71,8 @@
     });
 
     $.ajax({
-        //url: 'https://jkjavier.github.io/data/education.json',
-        url: './data/education.json',
+        url: 'https://jkjavier.github.io/data/education.json',
+        //url: './data/education.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
