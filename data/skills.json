@@ -1,36 +1,36 @@
 {
     "softwareDevelopment":[
-        "bash",
-        "java",
-        "node",
-        "php",
-        "sql"
+        "Bash",
+        "Java",
+        "Node",
+        "Php",
+        "SQL"
     ],
     "webDevelopment":[
-        "css3",
-        "html5",
-        "javascript"
+        "Css3",
+        "Html5",
+        "Javascript"
     ],
     "databases":[
-        "mysql",
-        "postgresql",
-        "sql-lite"
+        "MySQL",
+        "PostgreSQL",
+        "Sql-Lite"
     ],
     "frameworks":[
-        "angular 1",
-        "laravel",
-        "spring",
-        "yii"
+        "AngularJS",
+        "Laravel",
+        "Spring",
+        "Yii"
     ],
     "buildTools":[
-        "composer",
-        "maven",
-        "npm"
+        "Composer",
+        "Maven",
+        "Npm"
     ],
     "apis":[
-        "facebook api",
-        "google maps api",
-        "twillo api"
+        "Facebook API",
+        "Google Maps API",
+        "Twillo API"
     ],
     "platforms":[
         "centos 6 and 7 (RHEL)",

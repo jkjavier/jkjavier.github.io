@@ -1,0 +1,21 @@
+{
+    "softwareDevelopment": "Bash, Java , Node , PHP , SQL",
+    
+    "webDevelopment": "Css3 , Html5, Javascript",
+    
+    "databases": "MySQL, PostgreSQL, Sql-Lite",
+    
+    "frameworks": "AngularJS, Laravel, Spring, Yii",
+    
+    "buildTools": "Composer, Maven, Npm",
+    
+    "apis": "Facebook API, Google Maps API, Twillo API",
+    
+    "platforms": "Centos 6 and 7 (RHEL), ubuntu 12 and 14 (Debian)",
+    
+    "versionControl": "Git, Mercurial",
+    
+    "unitTests": "Junit, PHPunit",
+    
+    "others": "Redis, Solr, Sphinx, ZeroMQ"
+}
