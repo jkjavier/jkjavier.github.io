@@ -6,10 +6,11 @@
     var skills = $('#skillList');
     var education = $('#education');
     var org = $('#affiliations');
+    var personal = $('#personal');
 
     $.ajax({
-        url: 'https://jkjavier.github.io/data/experience.json',
-        //url: './data/experience.json',
+        //url: 'https://jkjavier.github.io/data/experience.json',
+        url: './data/experience.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
@@ -25,8 +26,8 @@
     });
 
     $.ajax({
-        url: 'https://jkjavier.github.io/data/skills2.json',
-        //url: './data/skills2.json',
+        //url: 'https://jkjavier.github.io/data/skills2.json',
+        url: './data/skills2.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
@@ -40,23 +41,27 @@
             skills.append('<li class="skillsList"><span class="skillsHeader">Platforms : </span><span class="skillsContent">'+response.platforms+'</li><br/>');
             skills.append('<li class="skillsList"><span class="skillsHeader">Version Control : </span><span class="skillsContent">'+response.versionControl+'</li><br/>');
             skills.append('<li class="skillsList"><span class="skillsHeader">Unit Tests : </span><span class="skillsContent">'+response.unitTests+'</li><br/>');
-            skills.append('<li class="skillsList"><span class="skillsHeader">Others : </span><span class="skillsContent">'+response.others+'</li><br/>');
+            skills.append('<li class="skillsList"><span class="skillsHeader">Others : </span><span class="skillsContent">'+response.others+'</li>');
         }
     });
 
     $.ajax({
-        url: 'https://jkjavier.github.io/data/personal.json',
-        //url: './data/personal.json',
+        //url: 'https://jkjavier.github.io/data/personal.json',
+        url: './data/personal.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
-            console.log(response.shortSummary);
+            personal.append('<li><b>Name : </b>'+response.name+'</li>');
+            personal.append('<br/><li><b>Mobile : </b>'+response.mobile+'</li>');
+            personal.append('<br/><li><b>Email : </b>'+response.email+'</li>');
+            personal.append('<br/><li><b>Website: </b><a class="links" href="'+response.website+'">'+response.website+'</a></li>');
+            personal.append('<li><br/><div class="jobDescription">'+response.summary3+'</div></li>');
         }
     });
     
     $.ajax({
-        url: 'https://jkjavier.github.io/data/affiliation.json',
-        //url: './data/affiliation.json',
+        //url: 'https://jkjavier.github.io/data/affiliation.json',
+        url: './data/affiliation.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
@@ -71,8 +76,8 @@
     });
 
     $.ajax({
-        url: 'https://jkjavier.github.io/data/education.json',
-        //url: './data/education.json',
+        //url: 'https://jkjavier.github.io/data/education.json',
+        url: './data/education.json',
         dataType: 'json',
         type: 'get',
         success: function(response){
@@ -84,8 +89,6 @@
                 '</br><b>Dissertation</b>: '+this.dissertation+
                 '</li></br>');
             });
-//        	console.log(response.graduate);
-//            education.append('<li></li>');
         }
     });
 

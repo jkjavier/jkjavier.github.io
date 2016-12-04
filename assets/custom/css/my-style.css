@@ -44,8 +44,15 @@ body {
     font-weight: 600;
 }
 
-.skillsContent{
-	
+#interests{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+
+.interest{
+	text-align:center;
 }
 
 ul {

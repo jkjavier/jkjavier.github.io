@@ -3,7 +3,7 @@
     
     "webDevelopment": "Css3 , Html5, Javascript",
     
-    "databases": "MySQL, PostgreSQL, Sql-Lite",
+    "databases": "MySQL, PostgreSQL, SQLite",
     
     "frameworks": "AngularJS, Laravel, Spring, Yii",
     
@@ -11,11 +11,11 @@
     
     "apis": "Facebook API, Google Maps API, Twillo API",
     
-    "platforms": "Centos 6 and 7 (RHEL), Ubuntu 12 and 14 (Debian)",
+    "platforms": "Centos 6.5 and 7 (RHEL), Ubuntu 12 and 14 (Debian)",
     
     "versionControl": "Git, Mercurial",
     
     "unitTests": "JUnit, PHPUnit",
     
-    "others": "Redis, Solr, Sphinx, ZeroMQ"
+    "others": "Jquery, OAuth, Redis, Solr, Sphinx, ZeroMQ"
 }
