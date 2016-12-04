@@ -15,6 +15,10 @@
     var infoTW = $('#infoTW');
     var infoIG = $('#infoIG');
     var infoGit = $('#infoGit');
+    
+    var summary1 = $('#summary1');
+    var summary2 = $('#summary2');
+    var summary3 = $('#summary3');
 
     $.ajax({
         //url: 'https://jkjavier.github.io/data/experience.json',
@@ -58,6 +62,10 @@
         dataType: 'json',
         type: 'get',
         success: function(response){
+            summary1.append(response.summary1);
+            summary2.append(response.summary2);
+            summary3.append(response.summary3);
+            
             infoMobile.append(response.mobile);
             infoEmail.append(response.email);
             infoWebsite.append('<a href="'+response.website+'" style="text-decoration:none; color:white;">'+response.website+'</a>');
