@@ -57,5 +57,15 @@
 <script src="./assets/angular/js/angular-sanitize.min.js"></script>
 <script src="./assets/angular/js/angular-touch.min.js"></script>
 
+<script>
+$(document).ready(function(){
+   $('div').scroll(function(e) {
+      e.preventDefault(); 
+      var offset = $(this).next().find('div').offset().top;
+      $('html, body').stop().animate({ scrollTop: offset }, 400);
+   });
+});
+</script>
+
 </body>
 </html>
