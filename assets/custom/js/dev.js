@@ -7,6 +7,14 @@
     var education = $('#education');
     var org = $('#affiliations');
     var personal = $('#personal');
+    
+    var infoMobile = $('#infoMobile');
+    var infoEmail = $('#infoEmail');
+    var infoWebsite = $('#infoWebsite');
+    var infoFB = $('#infoFB');
+    var infoTW = $('#infoTW');
+    var infoIG = $('#infoIG');
+    var infoGit = $('#infoGit');
 
     $.ajax({
         //url: 'https://jkjavier.github.io/data/experience.json',
@@ -51,11 +59,13 @@
         dataType: 'json',
         type: 'get',
         success: function(response){
-            personal.append('<li><b>Name : </b>'+response.name+'</li>');
-            personal.append('<br/><li><b>Mobile : </b>'+response.mobile+'</li>');
-            personal.append('<br/><li><b>Email : </b>'+response.email+'</li>');
-            personal.append('<br/><li><b>Website: </b><a class="links" href="'+response.website+'">'+response.website+'</a></li>');
-            personal.append('<li><br/><div class="jobDescription">'+response.summary3+'</div></li>');
+            infoMobile.append(response.mobile);
+            infoEmail.append(response.email);
+            infoWebsite.append(response.website);
+            infoFB.append(response.fb);
+            infoTW.append(response.tw);
+            infoIG.append(response.ig);
+            infoGit.append(response.git);
         }
     });
     
