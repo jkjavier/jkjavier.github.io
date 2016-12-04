@@ -1,0 +1,51 @@
+#firstDiv{
+    position:fixsed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background:rgba(255,0,0,0.5);
+}
+
+#secondDiv{
+    position:fisxed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background:rgba(0,255,0,0.5);
+}
+
+#thirdDiv{
+    position:fisxed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.5);
+}
+
+#fourthDiv{
+    position:fisxed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,255,0.5);
+}
