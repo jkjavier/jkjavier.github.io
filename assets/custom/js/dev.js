@@ -39,7 +39,6 @@
         dataType: 'json',
         type: 'get',
         success: function(response){
-            console.log(response.softwareDevelopment);
             skills.append('<li class="skillsList"><span class="skillsHeader">Software Development : </span><span class="skillsContent">'+response.softwareDevelopment+'</li><br/>');
             skills.append('<li class="skillsList"><span class="skillsHeader">Web Development : </span><span class="skillsContent">'+response.webDevelopment+'</li><br/>');
             skills.append('<li class="skillsList"><span class="skillsHeader">Databases : </span><span class="skillsContent">'+response.databases+'</li><br/>');
