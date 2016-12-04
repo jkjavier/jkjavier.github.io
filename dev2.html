@@ -24,16 +24,16 @@
       <link rel="stylesheet" type="text/css" href="./assets/font-awesome/css/font-awesome.min.css">
     </head>
 <body>
-<div id="firstDiv">
+<div id="firstDiv" class="test">
 
 </div>
-<div id="secondDiv">
+<div id="secondDiv" class="test">
 
 </div>
-<div id="thirdDiv">
+<div id="thirdDiv" class="test">
 
 </div>
-<div id="fourthDiv">
+<div id="fourthDiv" class="test">
 
 </div>
 
@@ -42,7 +42,6 @@
 <script src="./assets/angular/js/angular.min.js"></script>
 <script src="./assets/custom/js/html-dom.js"></script>
 <script src="./assets/custom/js/dev.js"></script>
-
 
 <script src="./assets/angular/js/angular-animate.min.js"></script>
 <script src="./assets/angular/js/angular-aria.min.js"></script>
@@ -56,16 +55,31 @@
 <script src="./assets/angular/js/angular-route.min.js"></script>
 <script src="./assets/angular/js/angular-sanitize.min.js"></script>
 <script src="./assets/angular/js/angular-touch.min.js"></script>
+<script src="./assets/scrollify/scroll.js"></script>
 
 <script>
-$(document).ready(function(){
-   $('div').scroll(function(e) {
-      e.preventDefault(); 
-      var offset = $(this).next().find('div').offset().top;
-      $('html, body').stop().animate({ scrollTop: offset }, 400);
-   });
+$(function() {
+    $.scrollify({
+        section : ".test",
+    });
+});
+
+$.scrollify({
+    section : "section",
+    sectionName : "section-name",
+    interstitialSection : "",
+    easing: "easeOutExpo",
+    scrollSpeed: 1100,
+    offset : 0,
+    scrollbars: true,
+    standardScrollElements: "",
+    setHeights: false,
+    overflowScroll: true,
+    before:function() {},
+    after:function() {},
+    afterResize:function() {},
+    afterRender:function() {}
 });
 </script>
-
 </body>
 </html>
