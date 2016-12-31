@@ -39,3 +39,9 @@ body {
     font-size: 3vw;
     position: relative;
 }
+
+#headline-3 {
+    padding-left: 65%;
+    font-size: 1.3vw;
+    position: relative;
+}

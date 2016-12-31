@@ -8,6 +8,9 @@
     var org = $('#affiliations');
     var personal = $('#personal');
     
+    var name = $('#name');
+    var title = $('#title');
+    
     var infoMobile = $('#infoMobile');
     var infoEmail = $('#infoEmail');
     var infoWebsite = $('#infoWebsite');
@@ -15,6 +18,7 @@
     var infoTW = $('#infoTW');
     var infoIG = $('#infoIG');
     var infoGit = $('#infoGit');
+    var infoIn = $('#infoIn');
     
     var summary1 = $('#summary1');
     var summary2 = $('#summary2');
@@ -66,13 +70,17 @@
             summary2.append(response.summary2);
             summary3.append(response.summary3);
             
+            name.append(response.name);
+            title.append(response.title);
+            
             infoMobile.append(response.mobile);
             infoEmail.append(response.email);
-            infoWebsite.append('<a href="'+response.website+'" style="text-decoration:none; color:white;">'+response.website+'</a>');
+            infoWebsite.append('<a href="'+response.website+'" style="text-decoration:none; color:black;">'+response.website+'</a>');
             infoFB.append(response.fb);
             infoTW.append(response.tw);
             infoIG.append(response.ig);
             infoGit.append(response.git);
+            infoIn.append(response.in);
         }
     });
     

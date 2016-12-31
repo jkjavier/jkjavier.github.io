@@ -3,7 +3,7 @@ body {
 }
 
 .header{
-	background-image: url("../../images/header.png");
+	*background-image: url("../../images/header.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -84,9 +84,13 @@ ul {
 }
 
 .infoContent {
-    font-weight: 800;
+	color:black;
     text-decoration: none;
-    color: white;
     text-align:justify;
+}
+
+.centerBlock {
+  display: table;
+  margin: auto;
 }
 
