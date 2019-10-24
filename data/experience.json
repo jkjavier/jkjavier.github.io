@@ -1,15 +1,25 @@
 {
-      "0":{
-          "position": "Software Engineer",
+    "0":{
+        "position": "Development Operations Engineer",
+        "company": "Infor",
+        "startDate": "April 2019",
+        "endDate": "Present",
+        "duration": "and counting",
+        "companySite":"https://www.infor.com/",
+        "address": "Net Park, 5th Ave, Taguig, 1634 Metro Manila",
+        "description": ""
+    },  
+    "1":{
+          "position": "Project Technology Lead",
           "company": "YONDU",
           "startDate": "January 2017",
-          "endDate": "Present",
+          "endDate": "March 2019",
           "duration": "and counting",
-          "companySite":"http://www.yondu.com/",
+          "companySite":"https://www.yondu.com/",
           "address": "7F, Panorama Building, 34th Street Lane A Bonifacio Global City, Taguig City",
           "description": ""
       },
-      "1":{
+      "2":{
           "position": "PHP Developer",
           "company": "Simplex Internet Philippines Inc.",
           "startDate": "September 2016",
@@ -19,7 +29,7 @@
           "address": "7F Suntree Tower Meralco Ave, Pasig City",
           "description": "I served as a PHP developer on a project based employment. The projects I handled with the company is a banner management and trending keyword search that both consists an internal CMS and gathers data per user click for statistics and is executed under the company's native framework. The said projects enabled me to apply my knowledge on object oriented programming and  enhanced my javascript scripting knowledge."
       },
-     "2":{
+     "3":{
           "position": "Back-end Developer",
           "company": "Hoppler Inc.",
           "startDate": "January 2016",
@@ -29,7 +39,7 @@
           "address": "3rd floor, 50 Polaris, Bel-Air, Makati City",
           "description": "I work as a Backend Developer. My daily work flow involves writing readable, scalable modules that improves the company’s existing API. I collaborate with co­workers to establish backend conventions, principles, and patterns, to see projects through, from conception to completion. I designed new features and services to support company applications and develop and maintain server ­side applications."
       },
-      "3":{
+      "4":{
           "position": "Applications Developer",
           "company": "Cid Systems Solutions and Services Inc.",
           "startDate": "March 2015",
@@ -39,7 +49,7 @@
           "address": "1410 Cityland Herrera, Valero Street, Makati City",
           "description": "I functioned as an applications developer forCid systems and did front and back end development from the ground up for the company’s clients. Create PHP scripts to help improve Cid systems’ native web framework and SEO optimization."
       },
-      "4":{
+      "5":{
           "position": "Research and Development Engineer",
           "company": "Get Hooked 360 Inc.",
           "startDate": "April 2014",
