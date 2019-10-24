@@ -9,7 +9,6 @@ body {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    #background-attachment: center;
     background-position: 0px -50px;
     background-position: center;
 }
