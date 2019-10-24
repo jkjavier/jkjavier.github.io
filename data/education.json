@@ -1,24 +1,9 @@
 {
-    "post-graduate":{
-        "course": "Masters of Information Technology",
-        "university": "Technological University of the Philippines - Manila",
-        "startDate": "June 2017",
-        "endDate": "Present",
-        "dissertation": " -- "
-    },
     "graduate":{
         "course": "Bachelor of Science Major in Computer Science",
         "university": "Technological University of the Philippines - Manila",
         "startDate": "June 2010",
         "endDate": "March 2014",
         "dissertation": "Development of a Real-Time Surveillance System"
-    },
-    "high-school":{
-        "course": "Secondary Education",
-        "university": "Colegio San Agustin - Bi&ntilde;an",
-        "startDate": "June 2006",
-        "endDate": "March 2010",
-        "dissertation": "none"
     }
-
 }
