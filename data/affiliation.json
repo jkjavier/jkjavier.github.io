@@ -1,33 +1,19 @@
 {
     "0":{
-        "position": "Digital Marketing Manager",
-        "startDate": "November 2016",
-        "endDate": "Present",
-        "organization": "The Office Project (TOP)",
-        "description": ""
-    },
-    "1":{
-        "position": "Member",
-        "startDate": "November 2016",
-        "endDate": "Present",
-        "organization": "Philippine Android Developers Community (PADC)",
-        "description": ""
-    },
-    "2":{
         "position": "Marketing Head",
         "startDate": "July 2016",
         "endDate": "Present",
         "organization": "Developers Connect Philippines (Devcon)",
         "description": ""
     },
-    "3":{
+    "1":{
         "position": "Marketing Team Lead",
         "startDate": "July 2015",
         "endDate": "July 2016",
         "organization": "Developers Connect Philippines (Devcon)",
         "description": ""
     },
-    "4":{
+    "2":{
         "position": "Member",
         "startDate": "April 2014",
         "endDate": "Present",
