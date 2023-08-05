@@ -1,3 +1,5 @@
-.settings/*
+.settings/
 .biuldpath
 .project
+
+node_modules/

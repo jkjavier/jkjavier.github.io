@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joseph Kim Javier",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pageable": "^0.6.8"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
